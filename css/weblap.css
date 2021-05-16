@@ -1,0 +1,137 @@
+body{
+font size: 16px;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+}
+*, *::before, *::after{
+box-sizing: border-box;
+margin: 0;
+padding:0;
+
+}
+img{
+max-width: 100%;
+
+}
+body{
+	display: grid;
+	grid-template-areas: 
+	"fejlec"
+	"kontent"
+	"lablec"
+
+	;
+	grid-template-rows: max-content 1fr max-content;
+	min-height: 200vh;
+    position: fixed;
+    width: 100%;
+    
+
+}
+header{
+
+grid-area: fejlec;
+}
+main{
+background-color: white;
+grid-area: kontent;
+background-image: url("css/kepek/wallpaper.jpg"); 
+}
+footer{
+background-color: black;
+grid-area: lablec;
+width: 100%;
+text-align: center;
+position: fixed;
+bottom: 0;
+left: 0;
+
+}
+
+
+header{
+		line-height: 2rem;
+		font-size: .95rem;
+		text-align: left;
+		padding: .75rem 1rem;
+		}
+.box1{
+		justify-content: space-around;
+        background-color: black;
+
+	 }
+.button{
+	text-align: center;
+    letter-spacing: 3px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: .35rem .2rem;
+    border-radius: 0.5rem;
+    transition: .8s;
+    min-width: max-content;
+    
+		}
+
+.kozep {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    box-sizing: border-box;
+    grid-gap: 5%;
+    margin: 3rem 10%;
+}
+#kep{
+	display: block;
+    float: right;
+    border-radius: 10%;
+    padding: .8rem;
+    height: 10%;
+    text-align: right;
+    right:20%;
+    margin-right: 20%;
+     margin-top: 50px 
+
+	}
+#kep2{
+    display: block;
+    float: right;
+    border-radius: 10%;
+    padding: .8rem;
+    height: 25%;
+    text-align: right;
+    right:20%;
+    margin-right: 20%;
+     margin-top: 50px 
+    }
+    #kep3{
+    display: block;
+    float: right;
+    border-radius: 10%;
+    padding: .8rem;
+    height: 20%;
+    text-align: right;
+    right:20%;
+    margin-right: 20%;
+     margin-top: 50px 
+    }
+#yt{
+height: 70px;
+
+	}
+
+a{
+text-decoration: none;
+color:white;
+
+}
+a:hover{
+	color: red;
+}
+
+.iframe-container{
+margin-left: 20%;
+
+}
