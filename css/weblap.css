@@ -35,7 +35,7 @@ grid-area: fejlec;
 main{
 background-color: white;
 grid-area: kontent;
-background-image: url("css/kepek/wallpaper.jpg"); 
+background: url("css/kepek/wallpaper.jpg"); 
 }
 footer{
 background-color: black;
